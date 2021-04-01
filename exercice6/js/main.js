@@ -1,0 +1,6 @@
+
+$(function(){
+
+    $("span").html("Konexio")
+
+})
