@@ -4,7 +4,7 @@ $(function(){
     $("button").click(function(){
 
         $.ajax({
-            url: 'https://restcountries.eu/rest/v2/name/' + $("input").val(),
+            url: 'https://restcountries.eu/rest/v2/name/usa' + $("input").val(),
             
             
             success: function(data, stat, res){
